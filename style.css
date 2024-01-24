@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: scroll;
+    background-image: url(https://images.unsplash.com/photo-1551757891-24a8dabd2708?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG9saXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size:cover;
+    align-items: center;
+    min-height: 92.8vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    text-align: center;
+
+}
+
+.date-till{
+    width: 90%;
+    max-width: 470px;
+    background-color: rgba(102, 233, 202, 0.422); /* white color with 30% opacity */
+    color:bisque;
+    margin: 50px auto 0;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+button{
+    border-radius: 10px;
+}
+
+.countdown-container{
+    width: 70%;
+    max-width: 470px;
+    background-color: rgba(255, 255, 255, 0.3); /* white color with 30% opacity */
+    color: #fff;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 10px;
+    /* font-size: 20px; */
+    font-weight:bold;
+    text-align: center;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.days span{
+    font-size: 20px;
+}
+

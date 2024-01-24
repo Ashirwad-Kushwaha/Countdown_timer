@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+        
+        <div class="date-till">
+        <h1>Countdown Timer</h1>
+        <label for="birthdate">Target Date: </label>
+        <input type="date" id="myDate" />
+        <button onclick="setTargetDate()">Submit</button>
+    </div>
+
+    <div class="countdown-container">
+        <div class="days">
+        <p class="big-text" id="dayss">-</p>
+                <span>days</span>
+        </div>
+        <div class="hours">
+        <p class="big-text" id="hourss">-</p>
+                <span>hours</span>
+        </div>
+        <div class="minutes">
+        <p class="big-text" id="minutess">-</p>
+                <span>minutes</span>
+        </div>
+        <div class="seconds">
+        <p class="big-text" id="secondss">-</p>
+                <span>seconds</span>
+        </div>
+    </div>   
+</body>
+</html>
